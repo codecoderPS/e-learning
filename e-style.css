@@ -1,0 +1,87 @@
+.mainbox{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    /* align-items: center; */
+    height: 600px;
+    width: 250px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 8px 8px 8px grey;
+    border-radius: 50px;
+}
+.mainbox:hover{
+    width: 250px;
+    height: 600px;
+border-radius: 10px;
+transform:scaleY(1.2);
+}
+
+.mainbox li{
+    padding: 7px;
+
+}
+.mainbox li:hover{
+    color: aqua;
+    cursor:pointer;
+   
+}
+#main{
+    margin-top: 7px;
+}
+.container{
+    /* background-image: url("https://media.istockphoto.com/id/1169630303/photo/blue-textured-background.webp?b=1&s=170667a&w=0&k=20&c=tI2xFhXqXFqMM0IvxSYY3F7LIwv450h2ch3yD-lZ9HU="); */
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 1000px;
+    position: sticky;
+    padding: 10px;
+    
+    font-size: large;
+    
+}
+.container2 img{
+    float: left;
+    width: 500px;
+    height: 200px;
+}
+h1{
+    color: black;
+}
+span{
+    display: flex;
+    width: 500px;
+    height: 200px;
+    justify-content: center;
+    padding: 6px;
+    font-size: large;
+
+    color: black;
+}
+h2{
+    color: black;
+}
+.info{
+    display: flex;
+    width: 800px;
+    height: 800px;
+}
+.info img{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+  

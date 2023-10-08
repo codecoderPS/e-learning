@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Designing</title>
+    <style>
+        .img{
+            display: flex;
+            width: 1000px;
+            height: 200px;
+
+        }
+       td span{
+        /* display: flex;
+        width: 100px; */
+        box-shadow: 8px 8px 7px grey;
+        background-color: skyblue;
+            font-size: larger;
+            font-weight: bolder;
+            font-family: sans-serif;
+        
+        }
+        .container{
+            order: 1;
+            /* box-shadow: 10px 13px 20px 10px black; */
+            height: 1000px;
+            width: 100%;
+            /* border: 2px solid silver; */
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+        }
+        .item{
+            order: 1;
+            /* justify-content: space-evenly; */
+            box-shadow: 10px 13px 20px 10px black;
+            align-items: center;
+            /* justify-content: center; */
+            width: 350px;
+            height: 400px;
+            /* font-family: Arial, Helvetica, sans-serif; */
+            font-size: larger;
+            font-weight: bold;
+            background-color: rgb(96, 179, 179);
+            border: 6px solid grey;
+            margin: 20px;
+            padding: 10px;
+            border-radius: 30px;
+            /* z-index: -1; */
+            /* display: none; */
+        }
+
+        /* @media (max-width:300px){ */
+            #item-1{
+                /* background: url('https://media.licdn.com/dms/image/C4E0BAQG25t8hy2NSqg/company-logo_200_200/0/1632670738189?e=1687392000&v=beta&t=5nLiPJrN0fElxWFqo85YVQqtVBosRA0N1MVtEPc7oD0'); */
+                display: block;
+                /* align-items: center; */
+                justify-content: center;
+            }
+        /* } */
+        @media (min-width:300px) and (max-width:500px){
+            #item-2{
+                display: block;
+                background-color: silver;
+            }
+        }
+        @media (min-width:500px) and (max-width:700px){
+            #item-3{
+                display: block;
+            }
+        }
+        @media (min-width:700px) and (max-width:900px){
+            #item-4{
+                display: block;
+                background-color: silver;
+            }
+        }
+        @media (min-width:900px) and (max-width:1100px){
+            #item-5{
+                display: block;
+            }
+        }
+       .mid p{
+        text-align: center;
+        font-size: larger;
+        font-style: italic;
+        box-shadow: 3px 3px 3px grey;
+       }
+       h2{
+    
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       ul img{
+        width: 250px;
+        height: 100px;
+       }
+       ul{
+        font-size: large;
+        font-weight: lighter;
+       }
+       .bottom img{
+        width: 700px;
+        height: 350px;
+        border-radius: 10px;
+       }
+       .bottom h1{
+        align-items: center;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-feature-settings: "blwm";
+       }
+       .bottom p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+        padding: 7px 7px;
+        font-family: cursive;
+        /* box-shadow: 5px 5px 3px black; */
+       }
+       table{
+        background-color: bisque;
+        box-shadow: 5px 5px 5px black;
+       }
+       
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td width="5px">
+    <div class="img">
+        <img src="https://images.squarespace-cdn.com/content/v1/54ec2161e4b01dbc251cbdae/1564611561252-CQPE0YWANRE7T9ZVJPHC/amazing-graphic-design-company-southern-california-2019.jpg" alt="">
+    </div>
+</td>
+<td width="500px">
+    <span>
+        <marquee behavior="" direction="left" hspace="10px">
+        <h1 align="left">GRAPHIC DESIGNING</h1></marquee>
+    </span>
+</td>
+</tr>
+</table>
+<div class="mid">
+    <p align="center">
+        Graphic design is a craft where professionals create visual content to communicate messages. <br>By applying visual hierarchy and page layout techniques, designers use typography and pictures to meet users' specific needs and focus on the logic of displaying elements in interactive designs, to optimize the user experience.
+    </p>
+</div>
+<br>
+<div class="content">
+    <h2 align="center">Types of Graphic Design</h2>
+    <div class="container">
+        <div class="item" id="item-1"><font size="5%"> Brand design</font>
+            <ul>
+                <img src="https://cdn.logojoy.com/wp-content/uploads/20201117163031/mississppi_ricks_banner-1-scaled.jpg" alt="">
+                
+            </ul>
+            <ul>
+                Brand designers help communicate the personality, tone, and core messaging of a company, so this work involves a lot of strategy. 
+            </ul>
+                
+        </div>
+        <div class="item" id="item-2"><font size="5%">Marketing design</font>
+            <ul>
+                <img src="https://wpimg.pixelied.com/blog/wp-content/uploads/2021/03/30131430/header-marketing-design-featured-image.png" alt="">
+            </ul>
+            <ul>Marketing designers may work on small projects, such as the layout of a promotional email, or large multi-faceted projects, such as designing the booth, hand-outs, and print materials for trade shows. </ul>
+        </div>
+        <div class="item" id="item-3"><font size="5%"> Web design</font>
+            <ul>
+                <img src="https://cdn.mos.cms.futurecdn.net/CT9xCjqrhnPD4ivB6B8Hqe.jpg" alt="">
+            </ul>
+            <ul>
+                Designing a great website is a multidisciplinary undertaking because websites are interactive, rather than fixed assets like a brochure or a magazine. You need graphic design skills as well as experience with user experience (UX) and user interface (UI) design, which is why many websites are designed by teams of multiple professionals with complementary skill sets. 
+            </ul>
+        </div>
+        <div class="item" id="item-4"><font size="5%"> Illustration design</font>
+            <ul>
+                <img src="https://t4.ftcdn.net/jpg/05/64/38/59/360_F_564385932_kTmZ8UZXhkGDg30Dz0Rr20q2U44NCDtE.jpg" alt="">
+            </ul>
+            <ul>
+                Illustration style and design process can vary drastically from designer to designer. Some artists work almost exclusively in digital formats using tools such Adobe Illustrator, Photoshop, or Procreate and others blend digital media with physical media, preferring to begin with a pencil and paper.
+            </ul>
+        </div>
+        <div class="item" id="item-4"><font size="5%"> Type design</font>
+            <ul>
+                <img src="https://254-online.com/wp-content/uploads/typography-as-an-element-of-graphic-design.jpg" alt="">
+            </ul>
+            <ul>Type design can include:
+                <li>Creating custom lettering and numerals</li>
+                <li>Writing or digitally creating typography assets</li>
+                <li>Selecting fonts and creating typography guidelines for a brand </li>
+            </ul>
+        </div>
+        <div class="item" id="item-5"><font size="5%"> Infographic design</font>
+            <ul>
+                <img src="https://img.freepik.com/free-vector/gradient-process-infographic-template_52683-65835.jpg" alt="">
+            </ul>
+            <ul>
+                Infographics come in the form of 2D illustrations, interactive elements on a website, or even videos. The common thread is that they help the viewer more easily understand a bulk of information or complex concepts.
+            </ul>
+        </div>
+
+  </div>
+  <hr>
+  <div class="bottom">
+    <h1>Best Platform to Learn Graphic Designing</h1>
+    <span>
+        <ul><h2>Canva</h2></ul>
+        <table>
+            <tr>
+                <td>
+                    <p>
+                        Canva is a graphic design software solutions provider that helps users to design presentations, social media graphics, and more with various layouts, images, photo filters, icons and shapes, and fonts. The platform combines a drag-and-drop design tool with a stock library of photographs, illustrations, and imagery.
+                    </p>
+                </td>
+                <td>
+                    <img src="https://content-management-files.canva.com/b57bf394-841f-40c2-84c8-bf9435139dc2/og_image_free.png" alt="">
+                </td>
+            </tr>
+        </table>
+        <ul><h2>Adobe Photoshop</h2></ul>
+        <table>
+            <tr>
+            <td>
+                <p>Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1987 by Thomas and John Knoll. Since then, the software has become the most used tool for professional digital art, especially in raster graphics editing.</p>
+            </td>
+            <td><img src="https://i.graphicmama.com/blog/wp-content/uploads/2022/05/27082611/photoshop-software-overview.jpg" alt=""></td>
+        </tr>
+    </table>
+        
+    </span>
+  </div>      
+</div>
+
+    
+</body>
+</html>
